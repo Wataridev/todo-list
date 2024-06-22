@@ -5,6 +5,7 @@ let add=document.getElementById('add');
 function addeer(){
 add.addEventListener('click',()=>{
 let text=document.getElementById('task').value;
+    document.getElementById('task').value='';
 document.getElementById('task').textContent='';
 const newParagraph = document.createElement("div");
 newParagraph.className='work';
